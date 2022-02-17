@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <div class="pic1"></div>
+        <div class="pic2"></div>
+        <div class="pic3"></div>
+    </div>
+    <script>
+        var imgs = document.querySelector('.content').querySelectorAll('div');
+        var bd = document.querySelector('body');
+        for (let i = 0; i < imgs.length; i++) {
+            imgs[i].onclick = function() {
+                console.log(i);
+                let att = window.getComputedStyle(imgs[i]);
+                // bd.setAttribute('background', att.background);
+                bd.style.background = att.background;
+            }
+        }
+    </script>
+</body>
+</html>
