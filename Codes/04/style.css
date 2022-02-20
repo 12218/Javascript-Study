@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+div.block {
+    height: 50px;
+    width: 70px;
+    line-height: 50px;
+    text-align: center;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color: wheat;
+    font-size: 20px;
+    cursor: pointer;
+    transform-origin: center;
+}
