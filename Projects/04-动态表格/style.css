@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+table.info {
+    width: 300px;
+    background-color: antiquewhite;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table.info th {
+    background-color: aquamarine;
+}
+
+table.info tr {
+    height: 40px;
+}
+
+tr.content td:nth-child(3n):hover {
+    background-color: aliceblue;
+    color: crimson;
+}
