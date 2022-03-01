@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.clock {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.clock div {
+    height: 100px;
+    width: 80px;
+    background-color: rgb(71, 71, 71);
+    float: left;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin: 5px;
+}
