@@ -8,7 +8,7 @@ BOM的顶级对象是window
 
 ## 2. BOM结构
 
-![05-01](./images/06-01.png)
+![06-01](./images/06-01.png)
 
 ## window对象常见的事件
 
